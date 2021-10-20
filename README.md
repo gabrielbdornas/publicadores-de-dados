@@ -1,40 +1,48 @@
-Python boilerplate :ramen:
+Publicadores de dados
 ===
 
 ## Sobre este repositório :open_book:
 
-Repositório continuação do trabalho realizado [aqui](https://github.com/gabrielbdornas/python-boilerplate), criado como código fonte básico para iniciar trabalhos em Python :snake:.
+Curso de publicação de dados, composto pelos módulos
 
-Criação de um [repositório template no github](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository), bem como a utilização do mesmo para iniciar [novos projetos](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-new-repository) foi utilizado como referência
+- Conceitos básicos:
+  - O que são dados abertos e a importância
+  - Portais de dados abertos
 
-Um breve :movie_camera: [tutorial no YouTube](https://youtu.be/S5cWAxUwxVk) foi criado para facilitar o entendimento e a construção do repositório.
+- Pré-requisitos:
+  - Setup da máquina com docker
+  - git e github
+  - json
+  - Padrão de metadados Frictionless
 
-Não deixe de conferir os outros vídeos sobre Python incluídos na mesma [playlist](https://youtube.com/playlist?list=PL3IzYsZ_t_16vdpHyVNii1D9UJyDM-ATc) do vídeo citado acima.
+- Publicação:
+  - Conjuntos essenciais
+  - Conjuntos intermediários
+  - Conjuntos avançados
 
-## Apoie este trabalho :money_with_wings: :money_with_wings: :money_with_wings:
+Inicialmente todos os módulos contaram como sessões para
 
-Se você gostou deste conteúdo e deseja auxiliar na criação de mais material como esse, pague-nos um café!!! :coffee:
+- Textos
+- Apresentação html
+- Vídeo
+- Exercícios propostos
+- Referência bibliográfica
 
-[Pix: pagueumcafepgabriel@gmail.com](https://iti.itau/transacoes?t=link&h=f5fa1d7a-d3cd-4502-b62f-3eac451528a6)
+## Estrutura do repositório
 
-Algo não funcionou, ficou com alguma dúvida ou gostaria de aprofundar algum ponto específico não detalhando no vídeo ou no código? Envie um e-mail para pagueumcafepgabriel@gmail.com para agendarmos uma sessão de tutoria online.
+Estrutura do repositório contará com ferramentas como:
 
-## Utilizar boilerplate :open_book:
+- Python [sphinx](https://www.sphinx-doc.org/en/master/) ou outros geradores de site estático como frictionless [livemark](https://livemark.frictionlessdata.io/) ou [jekyll](https://jekyllrb.com/). Utilizar o livemark apresentará uma vantagem competitiva pois faz parte da comunidade frictionless
+- [Revealjs](https://revealjs.com/) para montagem das apresentações
 
-- Criação de seu repositório a [partir do template](https://github.com/gabrielbdornas/python-boilerplate-template/generate)
-- Clonando o projeto:
 
-```Python
-# Não copie e cole o comando abaixo cegamente, modifique <github-username> e <nome-do-seu-projeto>
-$ git clone https://github.com/<github-username>/<nome-do-seu-projeto>
-$ python3.9 -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
-# inclua no arquivo requirements.txt todas as bibliotecas necessárias p seu projeto
-```
+## Premissas
+
+- Dados públicos abertos de qualidade
+- Utilização de ferramentas de código aberto (inclusive para construção do curso)
 
 ## Encontrou algo errado no código ou quer melhorá-lo
 
 Abra um Pull Request!!! Prometo não demorar a responder.
 
-Adoro este tipo de contribuição pois auxiliará no crescimento do código de maneira exponencial!
+Adoro este tipo de contribuição pois auxiliará no crescimento do repositório de maneira exponencial!
